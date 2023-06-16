@@ -1,0 +1,14 @@
+For exported settings at 16/June/2023 when all automated tests and resources and login 
+as well as other functionality is working without issues, use realm-export.json file 
+for exported realm and role settings. Remember to follow additional instructions
+to properly import it to Keycloak. Remember to copy over the actual 
+JAR files for SPI also.(keycloak-12.0.0).
+
+For SPI .jars, check /standalone/deployments. 
+sql-remote-user-storage-provider.jar (aka remote-user-storage-provider in keycloak admin console)
+is used for the mooc-app realm.
+
+-unedited-3.jar (aka provider in keycloak admin console) 
+is used for the test realm.
+
+In ./bin, run ./standalone.sh to start server.

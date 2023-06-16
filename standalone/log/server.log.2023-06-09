@@ -1,0 +1,305 @@
+2023-06-09 11:29:30,359 INFO  [org.jboss.as.server] (Thread-1) WFLYSRV0272: Suspending server
+2023-06-09 11:29:30,397 INFO  [org.jboss.as.ejb3] (Thread-1) WFLYEJB0493: EJB subsystem suspension complete
+2023-06-09 11:29:30,427 INFO  [org.jboss.as.server] (Thread-1) WFLYSRV0220: Server shutdown has been requested via an OS signal
+2023-06-09 11:29:30,531 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0010: Unbound data source [java:jboss/datasources/KeycloakDS]
+2023-06-09 11:29:30,541 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-5) WFLYMAIL0002: Unbound mail session [java:jboss/mail/Default]
+2023-06-09 11:29:30,556 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0008: Undertow HTTPS listener https suspending
+2023-06-09 11:29:30,573 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2023-06-09 11:29:30,588 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 72) WFLYUT0022: Unregistered web context: '/auth' from server 'default-server'
+2023-06-09 11:29:30,668 INFO  [org.keycloak.subsystem.server.extension.KeycloakProviderDeploymentProcessor] (MSC service thread 1-2) Undeploying Keycloak provider: my-remote-user-storage-provider.jar
+2023-06-09 11:29:30,716 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2023-06-09 11:29:30,732 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0019: Host default-host stopping
+2023-06-09 11:29:30,727 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment my-remote-user-storage-provider.jar (runtime-name: my-remote-user-storage-provider.jar) in 272ms
+2023-06-09 11:29:30,759 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2023-06-09 11:29:30,775 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 73) WFLYCLINF0003: Stopped sessions cache from keycloak container
+2023-06-09 11:29:30,775 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 56) WFLYCLINF0003: Stopped keys cache from keycloak container
+2023-06-09 11:29:30,776 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 71) WFLYCLINF0003: Stopped offlineClientSessions cache from keycloak container
+2023-06-09 11:29:30,790 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 74) WFLYCLINF0003: Stopped work cache from keycloak container
+2023-06-09 11:29:30,792 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 76) WFLYCLINF0003: Stopped clientSessions cache from keycloak container
+2023-06-09 11:29:30,803 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 80) WFLYCLINF0003: Stopped authenticationSessions cache from keycloak container
+2023-06-09 11:29:30,804 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 77) WFLYCLINF0003: Stopped actionTokens cache from keycloak container
+2023-06-09 11:29:30,803 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 79) WFLYCLINF0003: Stopped loginFailures cache from keycloak container
+2023-06-09 11:29:30,809 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 72) WFLYCLINF0003: Stopped http-remoting-connector cache from ejb container
+2023-06-09 11:29:30,819 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 81) WFLYCLINF0003: Stopped offlineSessions cache from keycloak container
+2023-06-09 11:29:30,819 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 82) WFLYCLINF0003: Stopped authorization cache from keycloak container
+2023-06-09 11:29:30,819 INFO  [org.infinispan.manager.DefaultCacheManager] (ServerService Thread Pool -- 72) Stopping cache manager null on null
+2023-06-09 11:29:30,823 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0008: Undertow HTTP listener default suspending
+2023-06-09 11:29:30,823 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2023-06-09 11:29:30,826 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0004: Undertow 2.2.2.Final stopping
+2023-06-09 11:29:30,831 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 75) WFLYCLINF0003: Stopped users cache from keycloak container
+2023-06-09 11:29:30,876 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 78) WFLYCLINF0003: Stopped realms cache from keycloak container
+2023-06-09 11:29:30,889 INFO  [org.infinispan.manager.DefaultCacheManager] (ServerService Thread Pool -- 78) Stopping cache manager null on null
+2023-06-09 11:29:30,900 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment keycloak-server.war (runtime-name: keycloak-server.war) in 446ms
+2023-06-09 11:29:30,941 INFO  [org.jboss.as] (MSC service thread 1-4) WFLYSRV0050: Keycloak 12.0.0 (WildFly Core 13.0.3.Final) stopped in 487ms
+2023-06-09 19:35:38,395 INFO  [org.jboss.modules] (main) JBoss Modules version 1.10.2.Final
+2023-06-09 19:35:41,028 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.12.Final
+2023-06-09 19:35:41,038 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2023-06-09 19:35:41,194 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: Keycloak 12.0.0 (WildFly Core 13.0.3.Final) starting
+2023-06-09 19:35:41,197 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	[Standalone] = 
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /home/jin/keycloak-12.0.0/jboss-modules.jar
+	java.class.version = 55.0
+	java.home = /usr/lib/jvm/java-11-openjdk-amd64
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 11.0.19+7-post-Ubuntu-0ubuntu122.04.1
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 11
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Ubuntu
+	java.vendor.url = https://ubuntu.com/
+	java.vendor.url.bug = https://bugs.launchpad.net/ubuntu/+source/openjdk-lts
+	java.version = 11.0.19
+	java.version.date = 2023-04-18
+	java.vm.compressedOopsMode = 32-bit
+	java.vm.info = mixed mode, sharing
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 11
+	java.vm.vendor = Ubuntu
+	java.vm.version = 11.0.19+7-post-Ubuntu-0ubuntu122.04.1
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = /home/jin/keycloak-12.0.0
+	jboss.host.name = laptop-rdhgvbg7
+	jboss.modules.dir = /home/jin/keycloak-12.0.0/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = laptop-rdhgvbg7
+	jboss.qualified.host.name = laptop-rdhgvbg7
+	jboss.server.base.dir = /home/jin/keycloak-12.0.0/standalone
+	jboss.server.config.dir = /home/jin/keycloak-12.0.0/standalone/configuration
+	jboss.server.data.dir = /home/jin/keycloak-12.0.0/standalone/data
+	jboss.server.deploy.dir = /home/jin/keycloak-12.0.0/standalone/data/content
+	jboss.server.log.dir = /home/jin/keycloak-12.0.0/standalone/log
+	jboss.server.name = laptop-rdhgvbg7
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /home/jin/keycloak-12.0.0/standalone/tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:/home/jin/keycloak-12.0.0/standalone/configuration/logging.properties
+	module.path = /home/jin/keycloak-12.0.0/modules
+	org.jboss.boot.log.file = /home/jin/keycloak-12.0.0/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Linux
+	os.version = 4.4.0-19041-Microsoft
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.library.path = /usr/lib/jvm/java-11-openjdk-amd64/lib
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /home/jin/keycloak-12.0.0/jboss-modules.jar -mp /home/jin/keycloak-12.0.0/modules org.jboss.as.standalone -Djboss.home.dir=/home/jin/keycloak-12.0.0 -Djboss.server.base.dir=/home/jin/keycloak-12.0.0/standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.dir = /home/jin/keycloak-12.0.0/bin
+	user.home = /home/jin
+	user.language = en
+	user.name = jin
+	user.timezone = America/New_York
+2023-06-09 19:35:41,200 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -D[Standalone] -Xms64m -Xmx512m -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true --add-exports=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=jdk.unsupported/sun.misc=ALL-UNNAMED --add-exports=jdk.unsupported/sun.reflect=ALL-UNNAMED -Dorg.jboss.boot.log.file=/home/jin/keycloak-12.0.0/standalone/log/server.log -Dlogging.configuration=file:/home/jin/keycloak-12.0.0/standalone/configuration/logging.properties 
+2023-06-09 19:35:42,605 INFO  [org.wildfly.security] (ServerService Thread Pool -- 20) ELY00001: WildFly Elytron version 1.13.1.Final
+2023-06-09 19:35:45,289 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2023-06-09 19:35:45,311 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 13) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2023-06-09 19:35:45,461 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2023-06-09 19:35:45,481 INFO  [org.xnio] (MSC service thread 1-4) XNIO version 3.8.2.Final
+2023-06-09 19:35:45,488 INFO  [org.xnio.nio] (MSC service thread 1-4) XNIO NIO Implementation Version 3.8.2.Final
+2023-06-09 19:35:45,517 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 37) WFLYCLINF0001: Activating Infinispan subsystem.
+2023-06-09 19:35:45,522 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 38) WFLYIO001: Worker 'default' has auto-configured to 32 IO threads with 256 max task threads based on your 16 available processors
+2023-06-09 19:35:45,524 INFO  [org.wildfly.extension.microprofile.config.smallrye._private] (ServerService Thread Pool -- 45) WFLYCONF0001: Activating WildFly MicroProfile Config Subsystem
+2023-06-09 19:35:45,528 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 48) WFLYNAM0001: Activating Naming Subsystem
+2023-06-09 19:35:45,528 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 53) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2023-06-09 19:35:45,541 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 51) WFLYSEC0002: Activating Security Subsystem
+2023-06-09 19:35:45,556 INFO  [org.wildfly.extension.microprofile.metrics.smallrye] (ServerService Thread Pool -- 47) WFLYMETRICS0001: Activating Eclipse MicroProfile Metrics Subsystem
+2023-06-09 19:35:45,562 INFO  [org.wildfly.extension.microprofile.health.smallrye] (ServerService Thread Pool -- 46) WFLYHEALTH0001: Activating Eclipse MicroProfile Health Subsystem
+2023-06-09 19:35:45,558 INFO  [org.jboss.as.security] (MSC service thread 1-2) WFLYSEC0001: Current PicketBox version=5.0.3.Final-redhat-00006
+2023-06-09 19:35:45,561 INFO  [org.jboss.as.connector] (MSC service thread 1-4) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.23.Final)
+2023-06-09 19:35:45,599 INFO  [org.jboss.as.naming] (MSC service thread 1-3) WFLYNAM0003: Starting Naming Service
+2023-06-09 19:35:45,617 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-3) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2023-06-09 19:35:45,654 INFO  [org.jboss.remoting] (MSC service thread 1-8) JBoss Remoting version 5.0.19.Final
+2023-06-09 19:35:45,673 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0003: Undertow 2.2.2.Final starting
+2023-06-09 19:35:45,680 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 32) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2023-06-09 19:35:45,733 WARN  [org.wildfly.clustering.web.undertow] (ServerService Thread Pool -- 54) WFLYCLWEBUT0007: No routing provider found for default-server; using legacy provider based on static configuration
+2023-06-09 19:35:45,752 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = h2
+2023-06-09 19:35:45,850 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 54) WFLYUT0014: Creating file handler for path '/home/jin/keycloak-12.0.0/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2023-06-09 19:35:45,875 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 64 (per class), which is derived from the number of CPUs on this host.
+2023-06-09 19:35:45,875 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 256 (per class), which is derived from thread worker pool sizing.
+2023-06-09 19:35:45,895 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0012: Started server default-server.
+2023-06-09 19:35:45,898 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0018: Host default-host starting
+2023-06-09 19:35:45,972 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 39) WFLYRS0016: RESTEasy version 3.13.2.Final
+2023-06-09 19:35:46,021 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2023-06-09 19:35:46,108 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0493: EJB subsystem suspension complete
+2023-06-09 19:35:46,186 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/datasources/KeycloakDS]
+2023-06-09 19:35:46,186 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2023-06-09 19:35:47,130 INFO  [org.jboss.as.patching] (MSC service thread 1-6) WFLYPAT0050: Keycloak cumulative patch ID is: base, one-off patches include: none
+2023-06-09 19:35:47,138 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-6) WFLYDM0111: Keystore /home/jin/keycloak-12.0.0/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2023-06-09 19:35:47,143 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-5) WFLYDS0013: Started FileSystemDeploymentService for directory /home/jin/keycloak-12.0.0/standalone/deployments
+2023-06-09 19:35:47,151 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "keycloak-server.war" (runtime-name: "keycloak-server.war")
+2023-06-09 19:35:47,151 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "my-remote-user-storage-provider.jar" (runtime-name: "my-remote-user-storage-provider.jar")
+2023-06-09 19:35:47,243 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2023-06-09 19:35:48,028 INFO  [org.keycloak.subsystem.server.extension.KeycloakProviderDeploymentProcessor] (MSC service thread 1-8) Deploying Keycloak provider: my-remote-user-storage-provider.jar
+2023-06-09 19:35:48,562 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 57) ISPN000128: Infinispan version: Infinispan 'Corona Extra' 11.0.4.Final
+2023-06-09 19:35:48,618 INFO  [org.infinispan.CONFIG] (MSC service thread 1-4) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2023-06-09 19:35:48,620 INFO  [org.infinispan.CONFIG] (MSC service thread 1-4) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2023-06-09 19:35:48,691 INFO  [org.infinispan.PERSISTENCE] (ServerService Thread Pool -- 57) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2023-06-09 19:35:48,692 INFO  [org.infinispan.PERSISTENCE] (ServerService Thread Pool -- 56) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.spi.marshalling.InfinispanProtoStreamMarshaller'
+2023-06-09 19:35:48,915 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 56) WFLYCLINF0002: Started http-remoting-connector cache from ejb container
+2023-06-09 19:35:48,935 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 59) WFLYCLINF0002: Started offlineSessions cache from keycloak container
+2023-06-09 19:35:48,935 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 62) WFLYCLINF0002: Started sessions cache from keycloak container
+2023-06-09 19:35:48,937 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 63) WFLYCLINF0002: Started authenticationSessions cache from keycloak container
+2023-06-09 19:35:48,937 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 57) WFLYCLINF0002: Started loginFailures cache from keycloak container
+2023-06-09 19:35:48,937 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 64) WFLYCLINF0002: Started offlineClientSessions cache from keycloak container
+2023-06-09 19:35:48,935 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 56) WFLYCLINF0002: Started actionTokens cache from keycloak container
+2023-06-09 19:35:48,937 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 58) WFLYCLINF0002: Started work cache from keycloak container
+2023-06-09 19:35:48,937 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 65) WFLYCLINF0002: Started clientSessions cache from keycloak container
+2023-06-09 19:35:48,969 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 61) WFLYCLINF0002: Started realms cache from keycloak container
+2023-06-09 19:35:48,969 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 67) WFLYCLINF0002: Started authorization cache from keycloak container
+2023-06-09 19:35:48,969 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 60) WFLYCLINF0002: Started keys cache from keycloak container
+2023-06-09 19:35:48,969 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 66) WFLYCLINF0002: Started users cache from keycloak container
+2023-06-09 19:35:49,579 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0273: Excluded subsystem webservices via jboss-deployment-structure.xml does not exist.
+2023-06-09 19:35:50,176 INFO  [org.keycloak.services] (ServerService Thread Pool -- 61) KC-SERVICES0001: Loading config from standalone.xml or domain.xml
+2023-06-09 19:35:50,332 INFO  [org.keycloak.url.DefaultHostnameProviderFactory] (ServerService Thread Pool -- 61) Frontend: <request>, Admin: <frontend>, Backend: <request>
+2023-06-09 19:35:50,910 WARN  [org.infinispan.encoding.impl.StorageConfigurationManager] (ServerService Thread Pool -- 61) ISPN000599: Configuration for cache 'realmRevisions' does not define the encoding for keys or values. If you use operations that require data conversion or queries, you should configure the cache with a specific MediaType for keys or values.
+2023-06-09 19:35:50,916 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 61) WFLYCLINF0002: Started realmRevisions cache from keycloak container
+2023-06-09 19:35:50,918 WARN  [org.infinispan.encoding.impl.StorageConfigurationManager] (ServerService Thread Pool -- 61) ISPN000599: Configuration for cache 'userRevisions' does not define the encoding for keys or values. If you use operations that require data conversion or queries, you should configure the cache with a specific MediaType for keys or values.
+2023-06-09 19:35:50,922 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 61) WFLYCLINF0002: Started userRevisions cache from keycloak container
+2023-06-09 19:35:50,923 WARN  [org.infinispan.encoding.impl.StorageConfigurationManager] (ServerService Thread Pool -- 61) ISPN000599: Configuration for cache 'authorizationRevisions' does not define the encoding for keys or values. If you use operations that require data conversion or queries, you should configure the cache with a specific MediaType for keys or values.
+2023-06-09 19:35:50,928 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 61) WFLYCLINF0002: Started authorizationRevisions cache from keycloak container
+2023-06-09 19:35:50,929 INFO  [org.keycloak.connections.infinispan.DefaultInfinispanConnectionProviderFactory] (ServerService Thread Pool -- 61) Node name: laptop-rdhgvbg7, Site name: null
+2023-06-09 19:35:51,791 INFO  [org.keycloak.connections.jpa.DefaultJpaConnectionProviderFactory] (ServerService Thread Pool -- 61) Database info: {databaseUrl=jdbc:h2:/home/jin/keycloak-12.0.0/standalone/data/keycloak, databaseUser=SA, databaseProduct=H2 1.4.197 (2018-03-18), databaseDriver=H2 JDBC Driver 1.4.197 (2018-03-18)}
+2023-06-09 19:35:53,421 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 61) HHH000204: Processing PersistenceUnitInfo [
+	name: keycloak-default
+	...]
+2023-06-09 19:35:53,532 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 61) HHH000412: Hibernate Core {5.3.20.Final}
+2023-06-09 19:35:53,534 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 61) HHH000206: hibernate.properties not found
+2023-06-09 19:35:53,757 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 61) HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
+2023-06-09 19:35:53,996 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 61) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-06-09 19:35:54,008 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 61) HHH000431: Unable to determine H2 database version, certain features may not work
+2023-06-09 19:35:54,076 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 61) Envers integration enabled? : true
+2023-06-09 19:35:54,699 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 61) HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2023-06-09 19:35:54,758 INFO  [org.hibernate.validator.internal.util.Version] (ServerService Thread Pool -- 61) HV000001: Hibernate Validator 6.0.21.Final
+2023-06-09 19:35:56,131 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (ServerService Thread Pool -- 61) HHH000397: Using ASTQueryTranslatorFactory
+2023-06-09 19:35:57,255 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 61) RESTEASY002225: Deploying javax.ws.rs.core.Application: class org.keycloak.services.resources.KeycloakApplication
+2023-06-09 19:35:57,258 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 61) RESTEASY002200: Adding class resource org.keycloak.services.resources.JsResource from Application class org.keycloak.services.resources.KeycloakApplication
+2023-06-09 19:35:57,259 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 61) RESTEASY002205: Adding provider class org.keycloak.services.error.KeycloakErrorHandler from Application class org.keycloak.services.resources.KeycloakApplication
+2023-06-09 19:35:57,259 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 61) RESTEASY002200: Adding class resource org.keycloak.services.resources.ThemeResource from Application class org.keycloak.services.resources.KeycloakApplication
+2023-06-09 19:35:57,261 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 61) RESTEASY002205: Adding provider class org.keycloak.services.filters.KeycloakSecurityHeadersFilter from Application class org.keycloak.services.resources.KeycloakApplication
+2023-06-09 19:35:57,261 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 61) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.RobotsResource from Application class org.keycloak.services.resources.KeycloakApplication
+2023-06-09 19:35:57,262 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 61) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.admin.AdminRoot from Application class org.keycloak.services.resources.KeycloakApplication
+2023-06-09 19:35:57,262 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 61) RESTEASY002210: Adding provider singleton org.keycloak.services.util.ObjectMapperResolver from Application class org.keycloak.services.resources.KeycloakApplication
+2023-06-09 19:35:57,263 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 61) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.RealmsResource from Application class org.keycloak.services.resources.KeycloakApplication
+2023-06-09 19:35:57,263 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 61) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.WelcomeResource from Application class org.keycloak.services.resources.KeycloakApplication
+2023-06-09 19:35:57,623 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 61) WFLYUT0021: Registered web context: '/auth' for server 'default-server'
+2023-06-09 19:35:57,701 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 33) WFLYSRV0010: Deployed "my-remote-user-storage-provider.jar" (runtime-name : "my-remote-user-storage-provider.jar")
+2023-06-09 19:35:57,701 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 43) WFLYSRV0010: Deployed "keycloak-server.war" (runtime-name : "keycloak-server.war")
+2023-06-09 19:35:57,758 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2023-06-09 19:35:57,762 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: Keycloak 12.0.0 (WildFly Core 13.0.3.Final) started in 24069ms - Started 632 of 911 services (588 services are lazy, passive or on-demand)
+2023-06-09 19:35:57,766 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2023-06-09 19:35:57,767 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2023-06-09 20:13:18,347 WARN  [org.keycloak.protocol.oidc.utils.OAuth2CodeParser] (default task-1) Invalid format of the code
+2023-06-09 20:13:18,393 WARN  [org.keycloak.events] (default task-1) type=CODE_TO_TOKEN_ERROR, realmId=mooc-app, clientId=mooc-app-PKCE-client, userId=null, ipAddress=127.0.0.1, error=invalid_code, grant_type=authorization_code, client_auth_method=client-secret
+2023-06-09 21:18:35,846 WARN  [org.keycloak.events] (default task-1) type=LOGIN_ERROR, realmId=mooc-app, clientId=photo-app-code-flow-client, userId=null, ipAddress=127.0.0.1, error=client_not_found
+2023-06-09 21:55:11,169 WARN  [org.keycloak.protocol.oidc.utils.OAuth2CodeParser] (default task-7) Invalid format of the code
+2023-06-09 21:55:11,171 WARN  [org.keycloak.events] (default task-7) type=CODE_TO_TOKEN_ERROR, realmId=mooc-app, clientId=mooc-app-PKCE-client, userId=null, ipAddress=127.0.0.1, error=invalid_code, grant_type=authorization_code, client_auth_method=client-secret
+2023-06-09 21:57:20,568 WARN  [org.keycloak.protocol.oidc.utils.OAuth2CodeParser] (default task-7) Invalid format of the code
+2023-06-09 21:57:20,569 WARN  [org.keycloak.events] (default task-7) type=CODE_TO_TOKEN_ERROR, realmId=mooc-app, clientId=mooc-app-PKCE-client, userId=null, ipAddress=127.0.0.1, error=invalid_code, grant_type=authorization_code, client_auth_method=client-secret
+2023-06-09 22:00:05,208 WARN  [org.keycloak.protocol.oidc.utils.OAuth2CodeParser] (default task-7) Invalid format of the code
+2023-06-09 22:00:05,210 WARN  [org.keycloak.events] (default task-7) type=CODE_TO_TOKEN_ERROR, realmId=mooc-app, clientId=mooc-app-PKCE-client, userId=null, ipAddress=127.0.0.1, error=invalid_code, grant_type=authorization_code, client_auth_method=client-secret
+2023-06-09 22:00:42,901 WARN  [org.keycloak.protocol.oidc.utils.OAuth2CodeParser] (default task-7) Invalid format of the code
+2023-06-09 22:00:42,902 WARN  [org.keycloak.events] (default task-7) type=CODE_TO_TOKEN_ERROR, realmId=mooc-app, clientId=mooc-app-PKCE-client, userId=null, ipAddress=127.0.0.1, error=invalid_code, grant_type=authorization_code, client_auth_method=client-secret
+2023-06-09 22:00:44,800 WARN  [org.keycloak.protocol.oidc.utils.OAuth2CodeParser] (default task-7) Invalid format of the code
+2023-06-09 22:00:44,801 WARN  [org.keycloak.events] (default task-7) type=CODE_TO_TOKEN_ERROR, realmId=mooc-app, clientId=mooc-app-PKCE-client, userId=null, ipAddress=127.0.0.1, error=invalid_code, grant_type=authorization_code, client_auth_method=client-secret
+2023-06-09 22:01:22,675 WARN  [org.keycloak.protocol.oidc.utils.OAuth2CodeParser] (default task-7) Invalid format of the code
+2023-06-09 22:01:22,676 WARN  [org.keycloak.events] (default task-7) type=CODE_TO_TOKEN_ERROR, realmId=mooc-app, clientId=mooc-app-PKCE-client, userId=null, ipAddress=127.0.0.1, error=invalid_code, grant_type=authorization_code, client_auth_method=client-secret
+2023-06-09 22:01:26,289 WARN  [org.keycloak.protocol.oidc.utils.OAuth2CodeParser] (default task-7) Invalid format of the code
+2023-06-09 22:01:26,292 WARN  [org.keycloak.events] (default task-7) type=CODE_TO_TOKEN_ERROR, realmId=mooc-app, clientId=mooc-app-PKCE-client, userId=null, ipAddress=127.0.0.1, error=invalid_code, grant_type=authorization_code, client_auth_method=client-secret
+2023-06-09 22:02:18,808 WARN  [org.keycloak.protocol.oidc.utils.OAuth2CodeParser] (default task-7) Invalid format of the code
+2023-06-09 22:02:18,809 WARN  [org.keycloak.events] (default task-7) type=CODE_TO_TOKEN_ERROR, realmId=mooc-app, clientId=mooc-app-PKCE-client, userId=null, ipAddress=127.0.0.1, error=invalid_code, grant_type=authorization_code, client_auth_method=client-secret
+2023-06-09 22:02:49,419 WARN  [org.keycloak.protocol.oidc.utils.OAuth2CodeParser] (default task-7) Invalid format of the code
+2023-06-09 22:02:49,420 WARN  [org.keycloak.events] (default task-7) type=CODE_TO_TOKEN_ERROR, realmId=mooc-app, clientId=mooc-app-PKCE-client, userId=null, ipAddress=127.0.0.1, error=invalid_code, grant_type=authorization_code, client_auth_method=client-secret
+2023-06-09 22:02:54,518 WARN  [org.keycloak.protocol.oidc.utils.OAuth2CodeParser] (default task-7) Invalid format of the code
+2023-06-09 22:02:54,520 WARN  [org.keycloak.events] (default task-7) type=CODE_TO_TOKEN_ERROR, realmId=mooc-app, clientId=mooc-app-PKCE-client, userId=null, ipAddress=127.0.0.1, error=invalid_code, grant_type=authorization_code, client_auth_method=client-secret
+2023-06-09 22:03:10,862 WARN  [org.keycloak.protocol.oidc.utils.OAuth2CodeParser] (default task-7) Invalid format of the code
+2023-06-09 22:03:10,863 WARN  [org.keycloak.events] (default task-7) type=CODE_TO_TOKEN_ERROR, realmId=mooc-app, clientId=mooc-app-PKCE-client, userId=null, ipAddress=127.0.0.1, error=invalid_code, grant_type=authorization_code, client_auth_method=client-secret
+2023-06-09 22:06:00,412 WARN  [org.keycloak.protocol.oidc.utils.OAuth2CodeParser] (default task-7) Invalid format of the code
+2023-06-09 22:06:00,415 WARN  [org.keycloak.events] (default task-7) type=CODE_TO_TOKEN_ERROR, realmId=mooc-app, clientId=mooc-app-PKCE-client, userId=null, ipAddress=127.0.0.1, error=invalid_code, grant_type=authorization_code, client_auth_method=client-secret
+2023-06-09 22:06:51,486 WARN  [org.keycloak.protocol.oidc.utils.OAuth2CodeParser] (default task-7) Invalid format of the code
+2023-06-09 22:06:51,487 WARN  [org.keycloak.events] (default task-7) type=CODE_TO_TOKEN_ERROR, realmId=mooc-app, clientId=mooc-app-PKCE-client, userId=null, ipAddress=127.0.0.1, error=invalid_code, grant_type=authorization_code, client_auth_method=client-secret
+2023-06-09 22:08:00,043 WARN  [org.keycloak.protocol.oidc.utils.OAuth2CodeParser] (default task-7) Invalid format of the code
+2023-06-09 22:08:00,044 WARN  [org.keycloak.events] (default task-7) type=CODE_TO_TOKEN_ERROR, realmId=mooc-app, clientId=mooc-app-PKCE-client, userId=null, ipAddress=127.0.0.1, error=invalid_code, grant_type=authorization_code, client_auth_method=client-secret
+2023-06-09 22:08:59,641 WARN  [org.keycloak.protocol.oidc.utils.OAuth2CodeParser] (default task-7) Invalid format of the code
+2023-06-09 22:08:59,642 WARN  [org.keycloak.events] (default task-7) type=CODE_TO_TOKEN_ERROR, realmId=mooc-app, clientId=mooc-app-PKCE-client, userId=null, ipAddress=127.0.0.1, error=invalid_code, grant_type=authorization_code, client_auth_method=client-secret
+2023-06-09 22:11:35,201 WARN  [org.keycloak.protocol.oidc.utils.OAuth2CodeParser] (default task-7) Invalid format of the code
+2023-06-09 22:11:35,203 WARN  [org.keycloak.events] (default task-7) type=CODE_TO_TOKEN_ERROR, realmId=mooc-app, clientId=mooc-app-PKCE-client, userId=null, ipAddress=127.0.0.1, error=invalid_code, grant_type=authorization_code, client_auth_method=client-secret
+2023-06-09 22:12:38,579 WARN  [org.keycloak.protocol.oidc.utils.OAuth2CodeParser] (default task-7) Invalid format of the code
+2023-06-09 22:12:38,580 WARN  [org.keycloak.events] (default task-7) type=CODE_TO_TOKEN_ERROR, realmId=mooc-app, clientId=mooc-app-PKCE-client, userId=null, ipAddress=127.0.0.1, error=invalid_code, grant_type=authorization_code, client_auth_method=client-secret
+2023-06-09 22:13:07,405 WARN  [org.keycloak.protocol.oidc.utils.OAuth2CodeParser] (default task-7) Invalid format of the code
+2023-06-09 22:13:07,406 WARN  [org.keycloak.events] (default task-7) type=CODE_TO_TOKEN_ERROR, realmId=mooc-app, clientId=mooc-app-PKCE-client, userId=null, ipAddress=127.0.0.1, error=invalid_code, grant_type=authorization_code, client_auth_method=client-secret
+2023-06-09 22:14:36,573 WARN  [org.keycloak.protocol.oidc.utils.OAuth2CodeParser] (default task-7) Invalid format of the code
+2023-06-09 22:14:36,574 WARN  [org.keycloak.events] (default task-7) type=CODE_TO_TOKEN_ERROR, realmId=mooc-app, clientId=mooc-app-PKCE-client, userId=null, ipAddress=127.0.0.1, error=invalid_code, grant_type=authorization_code, client_auth_method=client-secret
+2023-06-09 22:14:40,871 WARN  [org.keycloak.protocol.oidc.utils.OAuth2CodeParser] (default task-7) Invalid format of the code
+2023-06-09 22:14:40,890 WARN  [org.keycloak.events] (default task-7) type=CODE_TO_TOKEN_ERROR, realmId=mooc-app, clientId=mooc-app-PKCE-client, userId=null, ipAddress=127.0.0.1, error=invalid_code, grant_type=authorization_code, client_auth_method=client-secret
+2023-06-09 22:15:35,626 WARN  [org.keycloak.protocol.oidc.utils.OAuth2CodeParser] (default task-7) Invalid format of the code
+2023-06-09 22:15:35,628 WARN  [org.keycloak.events] (default task-7) type=CODE_TO_TOKEN_ERROR, realmId=mooc-app, clientId=mooc-app-PKCE-client, userId=null, ipAddress=127.0.0.1, error=invalid_code, grant_type=authorization_code, client_auth_method=client-secret
+2023-06-09 22:17:47,955 WARN  [org.keycloak.protocol.oidc.utils.OAuth2CodeParser] (default task-7) Invalid format of the code
+2023-06-09 22:17:47,957 WARN  [org.keycloak.events] (default task-7) type=CODE_TO_TOKEN_ERROR, realmId=mooc-app, clientId=mooc-app-PKCE-client, userId=null, ipAddress=127.0.0.1, error=invalid_code, grant_type=authorization_code, client_auth_method=client-secret
+2023-06-09 22:18:21,710 WARN  [org.keycloak.protocol.oidc.utils.OAuth2CodeParser] (default task-7) Invalid format of the code
+2023-06-09 22:18:21,711 WARN  [org.keycloak.events] (default task-7) type=CODE_TO_TOKEN_ERROR, realmId=mooc-app, clientId=mooc-app-PKCE-client, userId=null, ipAddress=127.0.0.1, error=invalid_code, grant_type=authorization_code, client_auth_method=client-secret
+2023-06-09 22:20:21,571 WARN  [org.keycloak.protocol.oidc.utils.OAuth2CodeParser] (default task-7) Invalid format of the code
+2023-06-09 22:20:21,573 WARN  [org.keycloak.events] (default task-7) type=CODE_TO_TOKEN_ERROR, realmId=mooc-app, clientId=mooc-app-PKCE-client, userId=null, ipAddress=127.0.0.1, error=invalid_code, grant_type=authorization_code, client_auth_method=client-secret
+2023-06-09 22:23:52,459 WARN  [org.keycloak.protocol.oidc.utils.OAuth2CodeParser] (default task-7) Invalid format of the code
+2023-06-09 22:23:52,460 WARN  [org.keycloak.events] (default task-7) type=CODE_TO_TOKEN_ERROR, realmId=mooc-app, clientId=mooc-app-PKCE-client, userId=null, ipAddress=127.0.0.1, error=invalid_code, grant_type=authorization_code, client_auth_method=client-secret
+2023-06-09 22:25:13,416 WARN  [org.keycloak.protocol.oidc.utils.OAuth2CodeParser] (default task-1) Invalid format of the code
+2023-06-09 22:25:13,417 WARN  [org.keycloak.events] (default task-1) type=CODE_TO_TOKEN_ERROR, realmId=mooc-app, clientId=mooc-app-PKCE-client, userId=null, ipAddress=127.0.0.1, error=invalid_code, grant_type=authorization_code, client_auth_method=client-secret
+2023-06-09 22:26:17,632 WARN  [org.keycloak.protocol.oidc.utils.OAuth2CodeParser] (default task-1) Invalid format of the code
+2023-06-09 22:26:17,633 WARN  [org.keycloak.events] (default task-1) type=CODE_TO_TOKEN_ERROR, realmId=mooc-app, clientId=mooc-app-PKCE-client, userId=null, ipAddress=127.0.0.1, error=invalid_code, grant_type=authorization_code, client_auth_method=client-secret
+2023-06-09 22:26:39,591 WARN  [org.keycloak.protocol.oidc.utils.OAuth2CodeParser] (default task-1) Invalid format of the code
+2023-06-09 22:26:39,592 WARN  [org.keycloak.events] (default task-1) type=CODE_TO_TOKEN_ERROR, realmId=mooc-app, clientId=mooc-app-PKCE-client, userId=null, ipAddress=127.0.0.1, error=invalid_code, grant_type=authorization_code, client_auth_method=client-secret
+2023-06-09 22:27:00,084 WARN  [org.keycloak.protocol.oidc.utils.OAuth2CodeParser] (default task-1) Invalid format of the code
+2023-06-09 22:27:00,086 WARN  [org.keycloak.events] (default task-1) type=CODE_TO_TOKEN_ERROR, realmId=mooc-app, clientId=mooc-app-PKCE-client, userId=null, ipAddress=127.0.0.1, error=invalid_code, grant_type=authorization_code, client_auth_method=client-secret
+2023-06-09 22:30:19,073 WARN  [org.keycloak.protocol.oidc.utils.OAuth2CodeParser] (default task-1) Invalid format of the code
+2023-06-09 22:30:19,075 WARN  [org.keycloak.events] (default task-1) type=CODE_TO_TOKEN_ERROR, realmId=mooc-app, clientId=mooc-app-PKCE-client, userId=null, ipAddress=127.0.0.1, error=invalid_code, grant_type=authorization_code, client_auth_method=client-secret
+2023-06-09 22:31:58,810 WARN  [org.keycloak.protocol.oidc.utils.OAuth2CodeParser] (default task-1) Invalid format of the code
+2023-06-09 22:31:58,811 WARN  [org.keycloak.events] (default task-1) type=CODE_TO_TOKEN_ERROR, realmId=mooc-app, clientId=mooc-app-PKCE-client, userId=null, ipAddress=127.0.0.1, error=invalid_code, grant_type=authorization_code, client_auth_method=client-secret
+2023-06-09 22:32:37,567 WARN  [org.keycloak.protocol.oidc.utils.OAuth2CodeParser] (default task-1) Invalid format of the code
+2023-06-09 22:32:37,568 WARN  [org.keycloak.events] (default task-1) type=CODE_TO_TOKEN_ERROR, realmId=mooc-app, clientId=mooc-app-PKCE-client, userId=null, ipAddress=127.0.0.1, error=invalid_code, grant_type=authorization_code, client_auth_method=client-secret
+2023-06-09 22:32:47,936 WARN  [org.keycloak.protocol.oidc.utils.OAuth2CodeParser] (default task-1) Invalid format of the code
+2023-06-09 22:32:47,937 WARN  [org.keycloak.events] (default task-1) type=CODE_TO_TOKEN_ERROR, realmId=mooc-app, clientId=mooc-app-PKCE-client, userId=null, ipAddress=127.0.0.1, error=invalid_code, grant_type=authorization_code, client_auth_method=client-secret
+2023-06-09 22:35:59,101 WARN  [org.keycloak.protocol.oidc.utils.OAuth2CodeParser] (default task-1) Invalid format of the code
+2023-06-09 22:35:59,103 WARN  [org.keycloak.events] (default task-1) type=CODE_TO_TOKEN_ERROR, realmId=mooc-app, clientId=mooc-app-PKCE-client, userId=null, ipAddress=127.0.0.1, error=invalid_code, grant_type=authorization_code, client_auth_method=client-secret
+2023-06-09 22:36:21,367 WARN  [org.keycloak.protocol.oidc.utils.OAuth2CodeParser] (default task-1) Invalid format of the code
+2023-06-09 22:36:21,369 WARN  [org.keycloak.events] (default task-1) type=CODE_TO_TOKEN_ERROR, realmId=mooc-app, clientId=mooc-app-PKCE-client, userId=null, ipAddress=127.0.0.1, error=invalid_code, grant_type=authorization_code, client_auth_method=client-secret
+2023-06-09 22:41:37,809 WARN  [org.keycloak.protocol.oidc.utils.OAuth2CodeParser] (default task-1) Invalid format of the code
+2023-06-09 22:41:37,811 WARN  [org.keycloak.events] (default task-1) type=CODE_TO_TOKEN_ERROR, realmId=mooc-app, clientId=mooc-app-PKCE-client, userId=null, ipAddress=127.0.0.1, error=invalid_code, grant_type=authorization_code, client_auth_method=client-secret
+2023-06-09 22:42:08,539 WARN  [org.keycloak.protocol.oidc.utils.OAuth2CodeParser] (default task-7) Invalid format of the code
+2023-06-09 22:42:08,540 WARN  [org.keycloak.events] (default task-7) type=CODE_TO_TOKEN_ERROR, realmId=mooc-app, clientId=mooc-app-PKCE-client, userId=null, ipAddress=127.0.0.1, error=invalid_code, grant_type=authorization_code, client_auth_method=client-secret
+2023-06-09 22:47:25,578 WARN  [org.keycloak.protocol.oidc.utils.OAuth2CodeParser] (default task-7) Invalid format of the code
+2023-06-09 22:47:25,579 WARN  [org.keycloak.events] (default task-7) type=CODE_TO_TOKEN_ERROR, realmId=mooc-app, clientId=mooc-app-PKCE-client, userId=null, ipAddress=127.0.0.1, error=invalid_code, grant_type=authorization_code, client_auth_method=client-secret
+2023-06-09 23:11:31,325 WARN  [org.keycloak.protocol.oidc.utils.OAuth2CodeParser] (default task-7) Invalid format of the code
+2023-06-09 23:11:31,326 WARN  [org.keycloak.events] (default task-7) type=CODE_TO_TOKEN_ERROR, realmId=mooc-app, clientId=mooc-app-PKCE-client, userId=null, ipAddress=127.0.0.1, error=invalid_code, grant_type=authorization_code, client_auth_method=client-secret
+2023-06-09 23:11:39,536 WARN  [org.keycloak.protocol.oidc.utils.OAuth2CodeParser] (default task-7) Invalid format of the code
+2023-06-09 23:11:39,538 WARN  [org.keycloak.events] (default task-7) type=CODE_TO_TOKEN_ERROR, realmId=mooc-app, clientId=mooc-app-PKCE-client, userId=null, ipAddress=127.0.0.1, error=invalid_code, grant_type=authorization_code, client_auth_method=client-secret
+2023-06-09 23:13:11,566 WARN  [org.keycloak.protocol.oidc.utils.OAuth2CodeParser] (default task-7) Invalid format of the code
+2023-06-09 23:13:11,567 WARN  [org.keycloak.events] (default task-7) type=CODE_TO_TOKEN_ERROR, realmId=mooc-app, clientId=mooc-app-PKCE-client, userId=null, ipAddress=127.0.0.1, error=invalid_code, grant_type=authorization_code, client_auth_method=client-secret
+2023-06-09 23:13:35,989 WARN  [org.keycloak.protocol.oidc.utils.OAuth2CodeParser] (default task-7) Invalid format of the code
+2023-06-09 23:13:35,990 WARN  [org.keycloak.events] (default task-7) type=CODE_TO_TOKEN_ERROR, realmId=mooc-app, clientId=mooc-app-PKCE-client, userId=null, ipAddress=127.0.0.1, error=invalid_code, grant_type=authorization_code, client_auth_method=client-secret
+2023-06-09 23:13:38,078 WARN  [org.keycloak.protocol.oidc.utils.OAuth2CodeParser] (default task-7) Invalid format of the code
+2023-06-09 23:13:38,080 WARN  [org.keycloak.events] (default task-7) type=CODE_TO_TOKEN_ERROR, realmId=mooc-app, clientId=mooc-app-PKCE-client, userId=null, ipAddress=127.0.0.1, error=invalid_code, grant_type=authorization_code, client_auth_method=client-secret
+2023-06-09 23:14:03,250 WARN  [org.keycloak.protocol.oidc.utils.OAuth2CodeParser] (default task-7) Invalid format of the code
+2023-06-09 23:14:03,251 WARN  [org.keycloak.events] (default task-7) type=CODE_TO_TOKEN_ERROR, realmId=mooc-app, clientId=mooc-app-PKCE-client, userId=null, ipAddress=127.0.0.1, error=invalid_code, grant_type=authorization_code, client_auth_method=client-secret
+2023-06-09 23:15:41,149 WARN  [org.keycloak.protocol.oidc.utils.OAuth2CodeParser] (default task-7) Invalid format of the code
+2023-06-09 23:15:41,150 WARN  [org.keycloak.events] (default task-7) type=CODE_TO_TOKEN_ERROR, realmId=mooc-app, clientId=mooc-app-PKCE-client, userId=null, ipAddress=127.0.0.1, error=invalid_code, grant_type=authorization_code, client_auth_method=client-secret
+2023-06-09 23:16:36,266 WARN  [org.keycloak.protocol.oidc.utils.OAuth2CodeParser] (default task-7) Invalid format of the code
+2023-06-09 23:16:36,274 WARN  [org.keycloak.events] (default task-7) type=CODE_TO_TOKEN_ERROR, realmId=mooc-app, clientId=mooc-app-PKCE-client, userId=null, ipAddress=127.0.0.1, error=invalid_code, grant_type=authorization_code, client_auth_method=client-secret
