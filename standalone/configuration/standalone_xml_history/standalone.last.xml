@@ -43,8 +43,10 @@
             <security-realm name="ApplicationRealm">
                 <server-identities>
                     <ssl>
-                        <keystore path="application.keystore" relative-to="jboss.server.config.dir" keystore-password="password" alias="server" key-password="password" generate-self-signed-certificate-host="localhost"/>
-                    </ssl>
+                        <keystore path="keycloak.jks" relative-to="jboss.server.config.dir" keystore-password="keystore"/>
+                    
+<!-- <keystore path="application.keystore" relative-to="jboss.server.config.dir" keystore-password="password" alias="server" key-password="password" generate-self-signed-certificate-host="localhost"/>-->
+		</ssl>
                 </server-identities>
                 <authentication>
                     <local default-user="$local" allowed-users="*" skip-group-loading="true"/>
@@ -54,6 +56,17 @@
                     <properties path="application-roles.properties" relative-to="jboss.server.config.dir"/>
                 </authorization>
             </security-realm>
+            
+
+<security-realm name="UndertowRealm">
+    <server-identities>
+        <ssl>
+            <keystore path="keycloak.jks" relative-to="jboss.server.config.dir" keystore-password="keystore" />
+        </ssl>
+    </server-identities>
+</security-realm>
+
+
         </security-realms>
         <audit-log>
             <formatters>
@@ -560,10 +573,12 @@
             <buffer-cache name="default"/>
             <server name="default-server">
                 <http-listener name="default" socket-binding="http" redirect-socket="https" enable-http2="true"/>
-                <https-listener name="https" socket-binding="https" security-realm="ApplicationRealm" enable-http2="true"/>
+<!--                <https-listener name="https" socket-binding="https" security-realm="ApplicationRealm" enable-http2="true"/>-->
+<https-listener name="https" socket-binding="https" security-realm="UndertowRealm" enable-http2="true"/>
                 <host name="default-host" alias="localhost">
                     <location name="/" handler="welcome-content"/>
-                    <http-invoker security-realm="ApplicationRealm"/>
+<!--                    <http-invoker security-realm="ApplicationRealm"/>-->
+<http-invoker security-realm="UndertowRealm"/>
                 </host>
             </server>
             <servlet-container name="default">

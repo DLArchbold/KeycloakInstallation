@@ -1,0 +1,27 @@
+2023-07-11 20:51:39,877 INFO  [stdout] (default task-3) response (GET http://localhost:8082/application_user/get/usingEmail/spi/instructor1@gmail.com) 200
+2023-07-11 20:51:39,886 INFO  [stdout] (default task-3) response.body() {"id":2,"email":"instructor1@gmail.com","password":"instructor1","userType":"instructor","lessonId":2,"name":"XintianCao","interests":"Natual Language Processing"}
+2023-07-11 20:51:39,887 INFO  [stdout] (default task-3) response.statusCode() 200
+2023-07-11 20:51:39,913 INFO  [stdout] (default task-3) response (GET http://localhost:8082/application_user/get/usingEmail/spi/instructor1@gmail.com) 200
+2023-07-11 20:51:39,917 INFO  [stdout] (default task-3) response.body() {"id":2,"email":"instructor1@gmail.com","password":"instructor1","userType":"instructor","lessonId":2,"name":"XintianCao","interests":"Natual Language Processing"}
+2023-07-11 20:51:39,918 INFO  [stdout] (default task-3) response.statusCode() 200
+2023-07-11 20:51:39,920 INFO  [stdout] (default task-3) body: null
+2023-07-11 20:51:39,921 INFO  [stdout] (default task-3) body: {"id":0,"email":"instructor1@gmail.com","password":"instructor1","userType":null,"lessonId":null,"name":null,"interests":null}
+2023-07-11 20:51:39,945 INFO  [stdout] (default task-3) response (POST http://localhost:8082/application_user/get/usingEmail/instructor1@gmail.com/verifyPassword/spi) 200
+2023-07-11 20:51:39,947 INFO  [stdout] (default task-3) response.body() true
+2023-07-11 20:51:39,948 INFO  [stdout] (default task-3) response.statusCode() 200
+2023-07-11 20:51:39,949 INFO  [stdout] (default task-3) result: com.appsdeveloperblog.keycloak.VerifyPasswordResponse@51589439
+2023-07-11 20:51:39,971 INFO  [stdout] (default task-3) response (GET http://localhost:8082/application_user/get/usingEmail/spi/instructor1@gmail.com) 200
+2023-07-11 20:51:39,973 INFO  [stdout] (default task-3) response.body() {"id":2,"email":"instructor1@gmail.com","password":"instructor1","userType":"instructor","lessonId":2,"name":"XintianCao","interests":"Natual Language Processing"}
+2023-07-11 20:51:39,976 INFO  [stdout] (default task-3) response.statusCode() 200
+2023-07-11 20:51:40,547 INFO  [stdout] (default task-3) response (GET http://localhost:8082/application_user/get/usingEmail/spi/instructor1@gmail.com) 200
+2023-07-11 20:51:40,553 INFO  [stdout] (default task-3) response.body() {"id":2,"email":"instructor1@gmail.com","password":"instructor1","userType":"instructor","lessonId":2,"name":"XintianCao","interests":"Natual Language Processing"}
+2023-07-11 20:51:40,554 INFO  [stdout] (default task-3) response.statusCode() 200
+2023-07-11 20:51:40,594 INFO  [stdout] (default task-3) response (GET http://localhost:8082/application_user/get/usingEmail/spi/instructor1@gmail.com) 200
+2023-07-11 20:51:40,600 INFO  [stdout] (default task-3) response.body() {"id":2,"email":"instructor1@gmail.com","password":"instructor1","userType":"instructor","lessonId":2,"name":"XintianCao","interests":"Natual Language Processing"}
+2023-07-11 20:51:40,603 INFO  [stdout] (default task-3) response.statusCode() 200
+2023-07-11 20:52:52,777 INFO  [stdout] (default task-3) body: null
+2023-07-11 20:52:52,782 INFO  [stdout] (default task-3) body: {"id":0,"email":"student1@gmail.com","password":"student1","userType":null,"lessonId":null,"name":null,"interests":null}
+2023-07-11 20:52:53,064 INFO  [stdout] (default task-3) response (POST http://localhost:8082/application_user/get/usingEmail/student1@gmail.com/verifyPassword/spi) 200
+2023-07-11 20:52:53,069 INFO  [stdout] (default task-3) response.body() true
+2023-07-11 20:52:53,070 INFO  [stdout] (default task-3) response.statusCode() 200
+2023-07-11 20:52:53,072 INFO  [stdout] (default task-3) result: com.appsdeveloperblog.keycloak.VerifyPasswordResponse@2fd2cfaf
